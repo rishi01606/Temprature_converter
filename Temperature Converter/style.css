@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-image: url('background.png');
+    background-size: cover;
+    text-align: center;    
+}
+.container{
+    margin-left: 15%;
+    height: 600px;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    
+}
+h1{
+    color: cyan;
+    padding: 10%;
+
+}
+.a{
+    color:cyan;
+}
+input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+}
+button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+    background-color: cyan;
+}
+button:hover {
+    box-shadow: 0 0 5px cyan,
+                0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 100px cyan,
+                0 0 200px cyan;
+}
+.ressec{
+    margin: 10%;
+    margin-left: 22%;
+    height: 250px;
+    width: 300px;
+    background-color: cyan;
+    color: black;
+    border-radius: 5px;
+    
+    
+}
+h2{
+    padding-top: 20px;
+}
+.ressec h2 span#result {
+    display: block;
+    margin-top: 50px;
+}
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    margin-left: 7%;}}
+@media (max-width: 600px) {
+    .ressec {
+        max-width: 58%;
+        margin-left: 22%;}}
